@@ -21,7 +21,7 @@ Their listed website (xtremecarpetcleaningept.com) returns 404. Facebook is the 
 - Form is demo only, not connected to email
 - Retail job photos show third-party store branding; ask before keeping them public
 - Air duct card (vent photo) and the steam-cleaning hero photo are free Unsplash photos; swap for real ones if they have them
-- The "Why El Paso calls us" cards use only facts from their Facebook (94% / 25 reviews, family owned, licensed & insured); no review quotes were available
+- The six reviews are FAKE sample copy written for the demo (labeled "Sample review" on the page with a note). Replace with real reviews before launch. The 94% / 25 reviews figure is real, from their Facebook
 
 ## Assets
 - `logo-mark.png`: transparent version of `logo-clean.png`; `logo-clean.png`: logo rebuilt from the 720x340 original (`logo-original.jpg`) as flat navy/silver/white at 3x

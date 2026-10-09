@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=1">
+<link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
 
@@ -24,7 +24,7 @@
     <nav class="site-nav" aria-label="Main">
       <a href="#services" data-en="Services" data-es="Servicios">Services</a>
       <a href="#work" data-en="Our work" data-es="Trabajos">Our work</a>
-      <a href="#reviews" data-en="Why us" data-es="Por qué nosotros">Why us</a>
+      <a href="#reviews" data-en="Reviews" data-es="Reseñas">Reviews</a>
       <a href="#visit" data-en="Visit us" data-es="Visítanos">Visit us</a>
     </nav>
     <div class="header-actions">
@@ -42,7 +42,7 @@
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
     <a href="#services" data-en="Services" data-es="Servicios">Services</a>
     <a href="#work" data-en="Our work" data-es="Trabajos">Our work</a>
-    <a href="#reviews" data-en="Why us" data-es="Por qué nosotros">Why us</a>
+    <a href="#reviews" data-en="Reviews" data-es="Reseñas">Reviews</a>
     <a href="#visit" data-en="Visit us" data-es="Visítanos">Visit us</a>
     <a class="btn btn-solid" href="tel:+19155950581" data-en="Call (915) 595-0581" data-es="Llama (915) 595-0581">Call (915) 595-0581</a>
     <a class="btn btn-ghost" href="#quote" data-en="Free estimate" data-es="Estimado gratis">Free estimate</a>
@@ -232,29 +232,45 @@
 <section class="reviews" id="reviews">
   <div class="wrap">
     <header class="section-head reveal">
-      <p class="kicker" data-en="Why El Paso calls us" data-es="Por qué nos llaman">Why El Paso calls us</p>
-      <h2 data-en="Cleaning El Paso since 2000." data-es="Limpiando El Paso desde 2000.">Cleaning El Paso since 2000.</h2>
+      <p class="kicker" data-en="94% recommend us" data-es="94% nos recomienda">94% recommend us</p>
+      <h2 data-en="Neighbors say it best." data-es="Los vecinos lo dicen mejor.">Neighbors say it best.</h2>
     </header>
 
     <div class="review-marquee">
     <div class="review-grid" id="reviewGrid">
       <blockquote class="review reveal">
-        <span class="review-stat">94%</span>
-        <p data-en="of reviewers recommend Xtreme Carpet Cleaning." data-es="de quienes opinan recomiendan Xtreme Carpet Cleaning.">of reviewers recommend Xtreme Carpet Cleaning.</p>
-        <footer><small data-en="Based on 25 Facebook reviews" data-es="Según 25 reseñas en Facebook">Based on 25 Facebook reviews</small></footer>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“Our living room carpet looked ruined and we thought we would have to replace it. They came out, cleaned it and it looks brand new. Fair price and very friendly.”</p>
+        <footer>Marisol G. <small>· Sample review</small></footer>
       </blockquote>
       <blockquote class="review reveal">
-        <span class="review-stat" data-en="Family owned" data-es="Negocio familiar">Family owned</span>
-        <p data-en="Not a franchise and not a call center. The same local family crew has cleaned El Paso homes and businesses since 2000." data-es="No somos franquicia ni centro de llamadas. El mismo equipo familiar limpia casas y negocios de El Paso desde 2000.">Not a franchise and not a call center. The same local family crew has cleaned El Paso homes and businesses since 2000.</p>
-        <footer><small data-en="Since 2000" data-es="Desde 2000">Since 2000</small></footer>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“A pipe burst on a Sunday and they were at the house fast. Water pulled out, fans running, and they explained every step. Saved our floors.”</p>
+        <footer>Daniel R. <small>· Sample review</small></footer>
       </blockquote>
       <blockquote class="review reveal">
-        <span class="review-stat" data-en="Licensed &amp; insured" data-es="Con licencia y seguro">Licensed &amp; insured</span>
-        <p data-en="Certified technicians treat your floors and furniture like their own, on every job, big or small." data-es="Técnicos certificados que tratan tus pisos y muebles como suyos, en cada trabajo, grande o chico.">Certified technicians treat your floors and furniture like their own, on every job, big or small.</p>
-        <footer><small data-en="Certified crew" data-es="Equipo certificado">Certified crew</small></footer>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“They cleaned the carpet in our whole office over a weekend and we were back to work Monday morning. Professional crew, no mess left behind.”</p>
+        <footer>Patricia V. <small>· Sample review</small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“Our couch had years of stains and I figured it was a lost cause. It looks great now. I will call them again for the dining chairs.”</p>
+        <footer>Andrea T. <small>· Sample review</small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“Finally had our air ducts cleaned. Less dust around the house and my allergies are better. They showed us what they took out, which I liked.”</p>
+        <footer>Luis M. <small>· Sample review</small></footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <p>“Family owned and you can tell. They showed up on time, gave a clear price first and did exactly what they said. Highly recommend.”</p>
+        <footer>Roberto C. <small>· Sample review</small></footer>
       </blockquote>
     </div>
     </div>
+    <p class="also" style="font-size:.85rem" data-en="Sample reviews written for this concept. Replace with real customer reviews before launch." data-es="Reseñas de ejemplo escritas para este concepto. Reemplazar con reseñas reales antes de lanzar.">Sample reviews written for this concept. Replace with real customer reviews before launch.</p>
   </div>
 </section>
 
@@ -341,6 +357,6 @@
   <a class="btn btn-ghost" href="#quote" data-en="Free estimate" data-es="Estimado gratis">Free estimate</a>
 </div>
 
-<script src="script.js?v=1"></script>
+<script src="script.js?v=2"></script>
 </body>
 </html>
